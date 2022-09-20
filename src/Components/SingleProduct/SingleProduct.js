@@ -5,7 +5,7 @@ import "./SingleProduct.css";
 const SingleProduct = ({ product, handelAddToCart }) => {
   const { description, thumbnail, price } = product;
   return (
-    <Col>
+    <Col data-aos="zoom-in-up">
       <Card>
         <Card.Img height="200" variant="top" src={thumbnail} />
         <Card.Body>

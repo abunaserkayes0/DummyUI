@@ -19,7 +19,7 @@ const ProductDetails = ({ product }) => {
           <Card.Img src={thumbnail} className="w-50" alt="" />
           <Modal.Title>{title}</Modal.Title>
         </Modal.Header>
-        <h5 className=" ps-3">${price}</h5>
+        <h5 className="ps-3">${price}</h5>
         <Modal.Body>{description}</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
